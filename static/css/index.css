@@ -1,5 +1,6 @@
 @font-face {
   font-family: Consolas;
+  src: url("https://www.cssfontstack.com/Consolas");
 }
 
 body {
@@ -28,7 +29,6 @@ body {
   letter-spacing: 2;
   left: 50%;
   top: 50%;
-  font-family: "Consolas";
   text-transform: uppercase;
   font-size: 6em;
   color: #EEF2FF;
