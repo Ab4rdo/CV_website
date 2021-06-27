@@ -2,25 +2,35 @@ body {
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	font-family: Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif;
-}
-
-.text-light {
-	color: #fff;
+	font-family: "Montserrat", sans-serif !important;
 }
 
 .header_text {
-	justify-content: center;
+	margin-top: 270px;
+	margin-bottom: 50px;
 	text-align: center;
+	color: white;
+}
+
+.header_text h1 {
+	font-size: 4em;
+}
+
+.header_text p {
+	font-size: 1.4em;
 }
 
 .buttons {
-	justify-content: center;
 	text-align: center;
 }
 
 .buttons img {
-	width: 90px;
+	opacity: 1;
+	width: 120px;
+}
+
+.buttons:hover img{
+	opacity: 0.3;
 }
 
 @keyframes gradient {
