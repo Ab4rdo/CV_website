@@ -5,15 +5,14 @@ body {
 	font-family: Amazon Ember, Helvetica Neue, Roboto, Arial, sans-serif;
 }
 
-
-
-
 .header_text {
 	margin-top: 250px;
 	margin-bottom: 50px;
 	text-align: center;
 	color: #f8f9fa;
 }
+
+
 
 .header_text h1 {
 	font-size: 4em;
@@ -42,6 +41,18 @@ body {
 	transform: scale(1.1);
 	transition: all .2s ease-in-out;
 	opacity: 0.4;
+}
+
+@media only screen and (max-width: 765px) {
+	.header_text {
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	.link_buttons a{
+	padding-left: 20px;
+	padding-right: 20px;
+}
 }
 
 @keyframes gradient {
