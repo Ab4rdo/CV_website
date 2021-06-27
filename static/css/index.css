@@ -4,12 +4,22 @@ scroll-behavior: smooth;
 overflow: hidden;
 }
 
+.main_content{
+width: 100%;
+}
 
+.header_container{
+width: 100%;
+height: 100px;
+background: #A9A9A9;
+text-align: center;
+justify-content: center;
+}
 
 .neonText {
-	  color: #fff;
-	    text-shadow:
-	          0 0 7px #fff,
+color: #fff;
+text-shadow:
+	0 0 7px #fff,
 		        0 0 10px #fff,
 			      0 0 21px #fff,
 			            0 0 42px #0fa,
