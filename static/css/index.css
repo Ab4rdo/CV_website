@@ -68,6 +68,11 @@ body {
   animation: shine 2s forwards, blink 10s 1s infinite;
 }
 
+.surname{
+  position: relative;
+  padding-top: 100px;
+}
+
 @keyframes shine {
   0% {
     color: #182C6C;
