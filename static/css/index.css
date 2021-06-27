@@ -207,3 +207,9 @@ body {
     opacity: 1;
   }
 }
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
