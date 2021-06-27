@@ -24,20 +24,22 @@ body {
 	text-align: center;
 }
 
-.buttons img {
-	opacity: 1;
-	width: 120px;
+.buttons li{
 	padding-left: 30px;
 	padding-right: 30px;
 }
 
-.buttons img:hover{
-	opacity: 0.4;
+.buttons img {
+	opacity: 1;
+	width: 120px;
 }
 
 .buttons img:hover{
+	transform: scale(1.1);
+	transition: all .2s ease-in-out;
 	opacity: 0.4;
 }
+
 
 @keyframes gradient {
 	0% {
