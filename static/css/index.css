@@ -1,6 +1,5 @@
 @font-face {
-  font-family: Clip;
-  src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+  font-family: Consolas;
 }
 
 body {
@@ -14,7 +13,6 @@ body {
 }
 
 .sign {
-  padding-top: 300px;
   position: sticky;
   display: flex;
   justify-content: center;
@@ -30,7 +28,7 @@ body {
   letter-spacing: 2;
   left: 50%;
   top: 50%;
-  font-family: "Clip";
+  font-family: "Consolas";
   text-transform: uppercase;
   font-size: 6em;
   color: #EEF2FF;
