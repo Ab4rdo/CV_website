@@ -21,7 +21,7 @@ body {
 	font-size: 1.4em;
 }
 
-.buttons {
+.link_buttons {
 	text-align: center;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .link_buttons img {
-	opacity: 1;
+	opacity: 0.9;
 	width: 120px;
 }
 
